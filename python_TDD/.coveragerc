@@ -1,0 +1,12 @@
+[run]
+source = ./codigo
+
+[report]
+exclude_lines = 
+    def __str__
+    return self._nome
+    return self._salario
+
+[html]
+directory = coverage_relatorio_html
+    
